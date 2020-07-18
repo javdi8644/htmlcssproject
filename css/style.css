@@ -72,7 +72,13 @@ p{
     background:#f7c08a;
     color:#333;
 }
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+}
 #navbar{
+ 
     background: #333;
     color: white;
     overflow: auto;
@@ -204,3 +210,28 @@ padding-bottom: 30px;
     border-radius: 5px;
     opacity:0.9;
 } 
+
+#contact-form .form-group{
+    margin-bottom:20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom:5px ;
+}
+#contact-form input{
+    width: 100%;
+    padding:10px;
+   border-radius: 5px;
+    border:1px solid #ddd;
+    
+}
+
+#contact-form input[type="textarea"]{
+    height: 100px;   
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #fc708a;
+}
