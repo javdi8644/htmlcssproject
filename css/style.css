@@ -72,11 +72,8 @@ p{
     background:#f7c08a;
     color:#333;
 }
-header{
-    position: sticky;
-    position: -webkit-sticky;
-    top:0;
-}
+
+
 #navbar{
  
     background: #333;
@@ -86,7 +83,7 @@ header{
 #navbar a{
     color:white;
 }
-#navbar h1{
+#navbar .logo{
     float: left;
     padding:20px;
 }
@@ -196,7 +193,7 @@ padding-bottom: 30px;
 #testimonials .testimonial img{
     width: 60px;
     float: left;
-    margin-right: 20px;
+    margin-right:0 20px;
     border-radius: 50%;
 }
 #testimonials  h2{
@@ -206,7 +203,7 @@ padding-bottom: 30px;
 }
  #testimonials .testimonial{
     padding: 20px;
-    margin-bottom: 40px;
+    margin:0 100px 40px 100px;
     border-radius: 5px;
     opacity:0.9;
 } 
